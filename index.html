@@ -8,7 +8,18 @@
 </head>
 <body>
   <h1>Welcome to Eunpyeong Club!</h1>
-  <p>This is your new website. Edit <code>index.html</code> and <code>style.css</code> as you like.</p>
+  <div id="gallery"></div>
+
+  <h2>Club Application</h2>
+  <form id="applicationForm">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Why do you want to join?" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMsg"></p>
+
+  <p><a href="admin.html">Admin page</a></p>
   <script src="script.js"></script>
 </body>
 </html>
